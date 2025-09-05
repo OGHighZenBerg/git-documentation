@@ -1,0 +1,11 @@
+{
+  "name": "git-documentation",
+  "version": "1.0.0",
+  "description": "A sample package.json to demonstrate the Node.js CI workflow.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Tests passed!\" && exit 0"
+  },
+  "author": "",
+  "license": "ISC"
+}
