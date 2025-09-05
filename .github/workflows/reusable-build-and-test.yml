@@ -48,5 +48,8 @@ jobs:
       - name: Lint markdown files
         run: npm run lint:markdown
 
+      - name: Optimize images
+        run: npm run optimize:images
+
       - name: Run tests
         run: npm test
