@@ -45,5 +45,8 @@ jobs:
       - name: Check licenses
         run: npm run license-check
 
+      - name: Lint markdown files
+        run: npm run lint:markdown
+
       - name: Run tests
         run: npm test
