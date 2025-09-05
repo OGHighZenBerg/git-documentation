@@ -39,5 +39,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Scan for vulnerabilities
+        run: npm audit
+
       - name: Run tests
         run: npm test
